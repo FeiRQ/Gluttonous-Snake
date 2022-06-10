@@ -293,21 +293,21 @@
 
 				var snakeBox2=document.createElement("img");
 				if(this.mode[i]==1){
-					snakeBox2.src="img/drink11.png";
+					snakeBox2.src="drink11.png";
 					snakeBox2.style.width=25+"px";
 					snakeBox2.style.height=25+"px";
 					snakeBox2.style.position="absolute";
 					snakeBox2.style.top=this.snakeBody[i][1]*this.snakeW+7+"px";
 					snakeBox2.style.left=this.snakeBody[i][0]*this.snakeH+13+"px";
 				}else if(this.mode[i]==2){
-					snakeBox2.src="img/R-C_resize_rotated.png";
+					snakeBox2.src="R-C_resize_rotated.png";
 					snakeBox2.style.width=30+"px";
 					snakeBox2.style.height=30+"px";
 					snakeBox2.style.position="absolute";
 					snakeBox2.style.top=this.snakeBody[i][1]*this.snakeW+7+"px";
 					snakeBox2.style.left=this.snakeBody[i][0]*this.snakeH+9+"px";
 				}else if(this.mode[i]==3){
-					snakeBox2.src="img/strawberry.png"
+					snakeBox2.src="strawberry.png"
 					snakeBox2.style.width=20+"px";
 					snakeBox2.style.height=20+"px";
 					snakeBox2.style.position="absolute";
@@ -349,14 +349,14 @@
 				this.mode.push(0);
 			}
 			else if(this.onoffswitch2.checked||c==1){
-				foodBox.src="img/drink11.png";
+				foodBox.src="drink11.png";
 				if(Math.random()<=0.7)
 					this.mode.push(1);
 				else
 					this.mode.push(2);
 			}
 			else if(this.onoffswitch3.checked||c==2){
-				foodBox.src="img/strawberry.png";
+				foodBox.src="strawberry.png";
 				this.mode.push(3);
 			}
 
